@@ -1,0 +1,108 @@
+
+.title-class {
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  @media @phone {
+    margin-left: 15%;
+    font-size: 8rem;
+  }
+}  
+
+.home {
+  .take-back {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    margin-top: 5%;
+  }
+
+  .images {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .emptyClass {
+    width: 250px;
+    height: 250px;
+    @media @phone {
+      display: none;
+    }
+  }
+  .tutoring {
+    width: 250x;
+    height: 250px;
+  }
+  .library {
+    width: 250px;
+    height: 250px;
+    @media @phone {
+      display: none;
+    }
+  }
+  
+  .explanation {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .descrip {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    @media @phone {
+      margin-left: 3%;
+    }
+  }
+  .list {
+    list-style-type: circle;
+    font-size: 2rem;
+    margin-bottom: 10%;
+    @media @phone {
+      margin-left: 7%;
+    }
+  }
+  .btn {
+    display: block;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 10px;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 12%;
+    padding-top: 8%;
+    border-radius: 10px;
+    .display-btn(@bg-color:@btn-bg-color, @font-color:@font-color);
+    &:hover {
+      background-color: blue;
+      color: @bg-color;
+    }
+      .button-link {
+        color: @font-color;
+        text-decoration: none;
+      }
+    @media @phone {
+    display: block;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 95%;
+    height: 75px;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 37%;
+    padding-top: 10%;
+    border-radius: 10px;
+    }
+  }
+}// home

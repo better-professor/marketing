@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #00abff;
+  color: #ffffff;
+}
+html,
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #00abff;
+  color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #ffffff;
+  background-color: #00abff;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header-class {
+  margin-bottom: 2%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  /*closes nav-class*/
+}
+@media (max-width:500px) {
+  .header-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.header-class .logo {
+  font-size: 1rem;
+  width: 10%;
+  height: 10%;
+}
+@media (max-width:500px) {
+  .header-class .logo {
+    width: 15%;
+    height: 15%;
+    margin-bottom: 3%;
+  }
+}
+.header-class .nav-class {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  /*closes a*/
+}
+.header-class .nav-class a {
+  color: #ffffff;
+  margin-left: 30%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-bottom: 1%;
+  /*closes phone*/
+}
+@media (max-width:500px) {
+  .header-class .nav-class a {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+  }
+}
+footer {
+  color: #ffffff;
+  background-color: #00abff;
+  padding: 20px 0;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-class {
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+@media (max-width:500px) {
+  .title-class {
+    margin-left: 15%;
+    font-size: 8rem;
+  }
+}
+.home .Mildred {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+.home .Mildred .social {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.home .Carlos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+.home .Carlos .social {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.home .Laura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+.home .Laura .social {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.home .Matt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+.home .Matt .social {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.home .Kiran {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+.home .Kiran .social {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.home .profImage {
+  width: 250px;
+  height: 250px;
+}
+.home .explanation {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.title-class {
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+@media (max-width:500px) {
+  .title-class {
+    margin-left: 15%;
+    font-size: 8rem;
+  }
+}
+.home .take-back {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7%;
+  margin-top: 5%;
+}
+.home .images {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home .emptyClass {
+  width: 250px;
+  height: 250px;
+}
+@media (max-width:500px) {
+  .home .emptyClass {
+    display: none;
+  }
+}
+.home .tutoring {
+  width: 250x;
+  height: 250px;
+}
+.home .library {
+  width: 250px;
+  height: 250px;
+}
+@media (max-width:500px) {
+  .home .library {
+    display: none;
+  }
+}
+.home .explanation {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.home .descrip {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+@media (max-width:500px) {
+  .home .descrip {
+    margin-left: 3%;
+  }
+}
+.home .list {
+  list-style-type: circle;
+  font-size: 2rem;
+  margin-bottom: 10%;
+}
+@media (max-width:500px) {
+  .home .list {
+    margin-left: 7%;
+  }
+}
+.home .btn {
+  display: block;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 300px;
+  height: 10px;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3%;
+  padding-bottom: 12%;
+  padding-top: 8%;
+  border-radius: 10px;
+  background-color: #22283A;
+  color: #ffffff;
+}
+.home .btn:hover {
+  background-color: blue;
+  color: #00abff;
+}
+.home .btn .button-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+@media (max-width:500px) {
+  .home .btn {
+    display: block;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 95%;
+    height: 75px;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 37%;
+    padding-top: 10%;
+    border-radius: 10px;
+  }
+}
